@@ -1,10 +1,9 @@
 [package]
-name = "cargo-generate"
+name = "cargo-generate-forked"
 description = "cargo, make me a project"
 version = "0.22.1"
 authors = ["Ashley Williams <ashley666ashley@gmail.com>"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/cargo-generate/cargo-generate"
 edition = "2021"
 include = ["src/**/*", "LICENSE-*", "*.md"]
 
@@ -63,7 +62,7 @@ vendored-openssl = ["openssl/vendored", "git2/vendored-openssl"]
 
 [[bin]]
 path = "src/main.rs"
-name = "cargo-generate"
+name = "cargo-generate-forked"
 
 [profile.release]
 lto = true
